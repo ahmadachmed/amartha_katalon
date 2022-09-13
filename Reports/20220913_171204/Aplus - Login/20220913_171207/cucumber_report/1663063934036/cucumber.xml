@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="112.384816">
+<testcase classname="Login/Logout APlus" name="mitra input  phone number to login" time="34.145003">
+<system-out><![CDATA[Given Alice start open aplus aplication.....................................passed
+When she login using phone number 081289945245..............................passed
+Then she should see that has message succedeed..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/Logout APlus" name="mitra input  phone number to login 2" time="15.339392">
+<system-out><![CDATA[Given Alice start open aplus aplication.....................................passed
+When she login using phone number 08123213123...............................passed
+Then she should see that has message failed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/Logout APlus" name="valid login as mitra and non mitra" time="19.38026">
+<system-out><![CDATA[Given Alice start open aplus aplication.....................................passed
+* she login using phone number 081319967818.................................passed
+When she input her pin 123654...............................................passed
+Then she should see logged as Mitra.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/Logout APlus" name="valid login as mitra and non mitra 2" time="20.560296">
+<system-out><![CDATA[Given Alice start open aplus aplication.....................................passed
+* she login using phone number 081289945245.................................passed
+When she input her pin 123654...............................................passed
+Then she should see logged as nonMitra......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login/Logout APlus" name="mitra login with invalid pin" time="22.959865">
+<system-out><![CDATA[Given Alice start open aplus aplication.....................................passed
+* she login using phone number 081319967818.................................passed
+When she input her pin 123123...............................................passed
+Then she should see that error message Maaf PIN salah, coba lagi, ya........passed
+]]></system-out>
+</testcase>
+</testsuite>

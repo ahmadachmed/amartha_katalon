@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aplus - Login" time="114.269" tests="1" failures="0" errors="0">
+   <testsuite name="Aplus - Login" tests="1" failures="0" errors="0" time="114.269" skipped="0" timestamp="2022-09-13 17:12:13" hostname="ahmadilham - localhost" id="Test Suites/Aplus - Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_arm64 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ahmadilham/Documents/A+/Katalon/amartha_katalon/Reports/20220913_171204/Aplus - Login/20220913_171207"/>
+         <property name="logFiles" value="/Users/ahmadilham/Documents/A+/Katalon/amartha_katalon/Reports/20220913_171204/Aplus - Login/20220913_171207/execution0.log, /Users/ahmadilham/Documents/A+/Katalon/amartha_katalon/Reports/20220913_171204/Aplus - Login/20220913_171207/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ahmadilham - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_arm64 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Run Cucumber/Login" time="113.749" classname="Test Cases/Run Cucumber/Login" status="PASSED">
+         <system-out><![CDATA[2022-09-13 17:12:13 - [TEST_CASE][PASSED] - Test Cases/Run Cucumber/Login: Test Cases/Run Cucumber/Login
+
+2022-09-13 17:12:13 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login", "@regression"): Feature file: 'Include/features/Login.feature' was passed
+
+2022-09-13 17:12:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: '/Users/ahmadilham/Documents/A+/Katalon/amartha_katalon/Reports/20220913_171204/Aplus - Login/20220913_171207/cucumber_report/1663063934036'...
+
+2022-09-13 17:12:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO mitra input  phone number to login: SCENARIO mitra input  phone number to login
+
+2022-09-13 17:12:14 - [TEST_STEP][PASSED] - Alice start open aplus aplication: Alice start open aplus aplication
+
+2022-09-13 17:12:17 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2022-09-13 17:12:19 - [MESSAGE][INFO] - Appium server started on port 50,904
+
+2022-09-13 17:12:43 - [MESSAGE][PASSED] - Started app at: '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+
+2022-09-13 17:12:47 - [MESSAGE][PASSED] - Alice start open aplus aplication
+
+2022-09-13 17:12:47 - [TEST_STEP][PASSED] - she login using phone number 081289945245: she login using phone number 081289945245
+
+2022-09-13 17:12:48 - [MESSAGE][PASSED] - she login using phone number 081289945245
+
+2022-09-13 17:12:48 - [TEST_STEP][PASSED] - she should see that has message succedeed: she should see that has message succedeed
+
+2022-09-13 17:12:48 - [MESSAGE][PASSED] - she should see that has message succedeed
+
+2022-09-13 17:12:48 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO mitra input  phone number to login: SCENARIO mitra input  phone number to login
+
+2022-09-13 17:12:48 - [TEST_STEP][PASSED] - Alice start open aplus aplication: Alice start open aplus aplication
+
+2022-09-13 17:12:56 - [MESSAGE][PASSED] - Started app at: '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+
+2022-09-13 17:13:02 - [MESSAGE][PASSED] - Alice start open aplus aplication
+
+2022-09-13 17:13:02 - [TEST_STEP][PASSED] - she login using phone number 08123213123: she login using phone number 08123213123
+
+2022-09-13 17:13:04 - [MESSAGE][PASSED] - she login using phone number 08123213123
+
+2022-09-13 17:13:04 - [TEST_STEP][PASSED] - she should see that has message failed: she should see that has message failed
+
+2022-09-13 17:13:04 - [MESSAGE][PASSED] - she should see that has message failed
+
+2022-09-13 17:13:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO valid login as mitra and non mitra: SCENARIO valid login as mitra and non mitra
+
+2022-09-13 17:13:04 - [TEST_STEP][PASSED] - Alice start open aplus aplication: Alice start open aplus aplication
+
+2022-09-13 17:13:10 - [MESSAGE][PASSED] - Started app at: '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+
+2022-09-13 17:13:16 - [MESSAGE][PASSED] - Alice start open aplus aplication
+
+2022-09-13 17:13:16 - [TEST_STEP][PASSED] - she login using phone number 081319967818: she login using phone number 081319967818
+
+2022-09-13 17:13:18 - [MESSAGE][PASSED] - she login using phone number 081319967818
+
+2022-09-13 17:13:18 - [TEST_STEP][PASSED] - she input her pin 123654: she input her pin 123654
+
+2022-09-13 17:13:23 - [MESSAGE][PASSED] - she input her pin 123654
+
+2022-09-13 17:13:23 - [TEST_STEP][PASSED] - she should see logged as Mitra: she should see logged as Mitra
+
+2022-09-13 17:13:23 - [MESSAGE][PASSED] - she should see logged as Mitra
+
+2022-09-13 17:13:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO valid login as mitra and non mitra: SCENARIO valid login as mitra and non mitra
+
+2022-09-13 17:13:23 - [TEST_STEP][PASSED] - Alice start open aplus aplication: Alice start open aplus aplication
+
+2022-09-13 17:13:31 - [MESSAGE][PASSED] - Started app at: '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+
+2022-09-13 17:13:37 - [MESSAGE][PASSED] - Alice start open aplus aplication
+
+2022-09-13 17:13:37 - [TEST_STEP][PASSED] - she login using phone number 081289945245: she login using phone number 081289945245
+
+2022-09-13 17:13:39 - [MESSAGE][PASSED] - she login using phone number 081289945245
+
+2022-09-13 17:13:39 - [TEST_STEP][PASSED] - she input her pin 123654: she input her pin 123654
+
+2022-09-13 17:13:44 - [MESSAGE][PASSED] - she input her pin 123654
+
+2022-09-13 17:13:44 - [TEST_STEP][PASSED] - she should see logged as nonMitra: she should see logged as nonMitra
+
+2022-09-13 17:13:44 - [MESSAGE][PASSED] - she should see logged as nonMitra
+
+2022-09-13 17:13:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO mitra login with invalid pin: SCENARIO mitra login with invalid pin
+
+2022-09-13 17:13:44 - [TEST_STEP][PASSED] - Alice start open aplus aplication: Alice start open aplus aplication
+
+2022-09-13 17:13:52 - [MESSAGE][PASSED] - Started app at: '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+
+2022-09-13 17:13:59 - [MESSAGE][PASSED] - Alice start open aplus aplication
+
+2022-09-13 17:13:59 - [TEST_STEP][PASSED] - she login using phone number 081319967818: she login using phone number 081319967818
+
+2022-09-13 17:14:01 - [MESSAGE][PASSED] - she login using phone number 081319967818
+
+2022-09-13 17:14:01 - [TEST_STEP][PASSED] - she input her pin 123123: she input her pin 123123
+
+2022-09-13 17:14:05 - [MESSAGE][PASSED] - she input her pin 123123
+
+2022-09-13 17:14:05 - [TEST_STEP][PASSED] - she should see that error message Maaf PIN salah, coba lagi, ya.: she should see that error message Maaf PIN salah, coba lagi, ya.
+
+2022-09-13 17:14:06 - [MESSAGE][PASSED] - she should see that error message Maaf PIN salah, coba lagi, ya.
+
+2022-09-13 17:14:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-13 17:12:13 - [TEST_SUITE][PASSED] - Aplus - Login: Test Cases/Run Cucumber/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

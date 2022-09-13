@@ -1,0 +1,444 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "6acf4744-8c6f-48dc-b858-f483820f6e14",
+        "line": 30,
+        "name": "mitra input  phone number to login",
+        "description": "",
+        "id": "login/logout-aplus;mitra-input--phone-number-to-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32683366584,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Alice start open aplus aplication",
+            "match": {
+              "location": "Login_steps.alice_start_open_aplus_aplication()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d414770e-4b78-432f-b8ca-8c2dbc7273b9"
+          },
+          {
+            "result": {
+              "duration": 1311092458,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "she login using phone number 081289945245",
+            "match": {
+              "arguments": [
+                {
+                  "val": "081289945245",
+                  "offset": 29
+                }
+              ],
+              "location": "Login_steps.she_login_using_phone_number(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4bfe8448-45e4-4567-a974-e53fc664945d"
+          },
+          {
+            "result": {
+              "duration": 12276333,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "she should see that has message succedeed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "succedeed",
+                  "offset": 32
+                }
+              ],
+              "location": "Login_steps.she_should_see_that_has_message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "2212f265-d843-4c94-a573-d5ccaf5ff6e3"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PhoneNumber"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "c67f1ebd-763b-420c-a5da-4f225cf1d3ef",
+        "line": 31,
+        "name": "mitra input  phone number to login",
+        "description": "",
+        "id": "login/logout-aplus;mitra-input--phone-number-to-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13396066208,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Alice start open aplus aplication",
+            "match": {
+              "location": "Login_steps.alice_start_open_aplus_aplication()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "45f716c8-553c-4e38-b43b-2b11faee1a9f"
+          },
+          {
+            "result": {
+              "duration": 1899629792,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "she login using phone number 08123213123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "08123213123",
+                  "offset": 29
+                }
+              ],
+              "location": "Login_steps.she_login_using_phone_number(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ee442e60-1d8b-49bf-89de-442e592c9326"
+          },
+          {
+            "result": {
+              "duration": 3090833,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "she should see that has message failed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 32
+                }
+              ],
+              "location": "Login_steps.she_should_see_that_has_message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d9e6e2bf-13c5-451b-9154-4b8d9d76cf3d"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@PhoneNumber"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "f94f9a83-dc54-40a3-91af-c60e4a3d739c",
+        "line": 42,
+        "name": "valid login as mitra and non mitra",
+        "description": "",
+        "id": "login/logout-aplus;valid-login-as-mitra-and-non-mitra;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12737771417,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Alice start open aplus aplication",
+            "match": {
+              "location": "Login_steps.alice_start_open_aplus_aplication()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "14321b0e-6111-46bc-9020-108157a7d3c7"
+          },
+          {
+            "result": {
+              "duration": 1927438583,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "she login using phone number 081319967818",
+            "match": {
+              "arguments": [
+                {
+                  "val": "081319967818",
+                  "offset": 29
+                }
+              ],
+              "location": "Login_steps.she_login_using_phone_number(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7a040363-aa97-4b45-8724-3a1dbd434bf0"
+          },
+          {
+            "result": {
+              "duration": 4655974459,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "she input her pin 123654",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123654",
+                  "offset": 18
+                }
+              ],
+              "location": "Login_steps.she_input_her_pin(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4fc531fe-a252-4b72-b7ab-bf88fd44b80a"
+          },
+          {
+            "result": {
+              "duration": 5095166,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "she should see logged as Mitra",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mitra",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_steps.she_should_see_logged(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "2697e047-449c-444f-a3fe-0e05d8a6eb51"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@logintoAplus"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8a31b6b0-76c3-4ce1-a062-1f2856183543",
+        "line": 43,
+        "name": "valid login as mitra and non mitra",
+        "description": "",
+        "id": "login/logout-aplus;valid-login-as-mitra-and-non-mitra;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13919180791,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Alice start open aplus aplication",
+            "match": {
+              "location": "Login_steps.alice_start_open_aplus_aplication()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ad7b65c3-25c7-44b5-a082-1523f85ed2e0"
+          },
+          {
+            "result": {
+              "duration": 1956374083,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "she login using phone number 081289945245",
+            "match": {
+              "arguments": [
+                {
+                  "val": "081289945245",
+                  "offset": 29
+                }
+              ],
+              "location": "Login_steps.she_login_using_phone_number(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "11fa73ca-b37d-4c6b-84d7-5d32d886f437"
+          },
+          {
+            "result": {
+              "duration": 4624136125,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "she input her pin 123654",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123654",
+                  "offset": 18
+                }
+              ],
+              "location": "Login_steps.she_input_her_pin(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ea9fcdde-d21e-42ca-b7a5-aa8dd2c53cd1"
+          },
+          {
+            "result": {
+              "duration": 3616083,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "she should see logged as nonMitra",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nonMitra",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_steps.she_should_see_logged(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8ae02b8e-c2ba-4990-b478-769e47f1131a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@logintoAplus"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8cdf174b-1276-4b14-86a0-2c851260397a",
+        "line": 54,
+        "name": "mitra login with invalid pin",
+        "description": "",
+        "id": "login/logout-aplus;mitra-login-with-invalid-pin;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15624839958,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Alice start open aplus aplication",
+            "match": {
+              "location": "Login_steps.alice_start_open_aplus_aplication()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9dac5399-07e9-4677-a2ed-21bfc2847e5b"
+          },
+          {
+            "result": {
+              "duration": 1344741042,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "she login using phone number 081319967818",
+            "match": {
+              "arguments": [
+                {
+                  "val": "081319967818",
+                  "offset": 29
+                }
+              ],
+              "location": "Login_steps.she_login_using_phone_number(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7f1589d4-ab0d-474d-b0a4-efd940edd8d3"
+          },
+          {
+            "result": {
+              "duration": 4570024000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "she input her pin 123123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123123",
+                  "offset": 18
+                }
+              ],
+              "location": "Login_steps.she_input_her_pin(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4d5916e6-5c11-458c-8c19-fd8d7a169565"
+          },
+          {
+            "result": {
+              "duration": 1236398541,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "she should see that error message Maaf PIN salah, coba lagi, ya.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Maaf PIN salah, coba lagi, ya.",
+                  "offset": 34
+                }
+              ],
+              "location": "Login_steps.she_should_see_that_error_message(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a6585f2e-92ec-4d25-9118-9311c4c797bc"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidPIN"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login/Logout APlus",
+    "description": "",
+    "id": "login/logout-aplus",
+    "keyword": "Feature",
+    "uri": "/Users/ahmadilham/Documents/A+/Katalon/amartha_katalon/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Aplus - Login,,,,2022-09-13 17:12:13,2022-09-13 17:14:07,1m - 54.269s,PASSED
+,,,,,,,
+Test Cases/Run Cucumber/Login,,,,2022-09-13 17:12:13,2022-09-13 17:14:07,1m - 53.749s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Login"", ""@regression"")",,,,2022-09-13 17:12:13,2022-09-13 17:14:07,1m - 53.498s,PASSED

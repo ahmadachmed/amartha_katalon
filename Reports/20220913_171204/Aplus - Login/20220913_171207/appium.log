@@ -1,0 +1,887 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50904
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/d_/wh5_xn1931sd2hkj391jnpv80000gp/T//Katalon/Appium/Temp1663063934750
+[35m[Appium][39m   chromedriverPort: 50906
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 50906
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50904
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","noReset":false,"deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":50903},"capabilities":{"firstMatch":[{"appium:app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":50903,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 532d0808-0249-498b-9694-0abec224e2d1
+[35m[BaseDriver][39m Using local app '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/ahmadilham/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/ahmadilham/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.amarthaplus.amarthabeyond.uat'
+[35m[ADB][39m Main activity name: 'com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/ahmadilham/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[ADB][39m '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk' is signed with a non-default certificate
+[35m[ADB][39m com.amarthaplus.amarthabeyond.uat was not uninstalled, because it was not present on the device
+[35m[ADB][39m The application at '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'v1.23.0-minApi19-uat.apk' took 557ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity and waiting for 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 532d0808-0249-498b-9694-0abec224e2d1 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m17163 ms - 1304[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1 [39m[32m200[39m [90m6 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1 [39m[32m200[39m [90m4 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/screenshot [39m[32m200[39m [90m388 ms - 183362[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/appium/device/system_bars [39m[32m200[39m [90m52 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m36 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000024/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-000b-ffff-ffff00000024"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000024/click [39m[32m200[39m [90m62 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m35 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000024/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"01ce1341-f32e-4347-9a31-272629e2cbb3","value":{"error":"stale element reference","message":"The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:122)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(Ser...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000024/displayed [39m[33m404[39m [90m755 ms - 4038[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m20 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000030/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000030/displayed [39m[32m200[39m [90m9 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000030/enabled[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000030/enabled [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m30 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000030/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-000b-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff00000030/click [39m[32m200[39m [90m783 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_start"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m20 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff0000003b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-000b-ffff-ffff0000003b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000b-ffff-ffff0000003b/click [39m[32m200[39m [90m46 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/textView_onboarding_login"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"01ce1341-f32e-4347-9a31-272629e2cbb3","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m797 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000d-ffff-ffff00000048/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-000d-ffff-ffff00000048"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000d-ffff-ffff00000048/click [39m[32m200[39m [90m746 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/editText_login_phone_input"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m13 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000e-ffff-ffff0000005c/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-000e-ffff-ffff0000005c","text":"081289945245","value":["0","8","1","2","8","9","9","4","5","2","4","5"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000e-ffff-ffff0000005c/value [39m[32m200[39m [90m684 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element [39m[32m200[39m [90m489 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000e-ffff-ffff0000005d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-000e-ffff-ffff0000005d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/532d0808-0249-498b-9694-0abec224e2d1/element/00000000-0000-000e-ffff-ffff0000005d/click [39m[32m200[39m [90m43 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","noReset":false,"deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":51047},"capabilities":{"firstMatch":[{"appium:app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":51047,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 10bbc15d-2ddb-4640-93ea-ddb6378573b8
+[35m[BaseDriver][39m Using local app '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.amarthaplus.amarthabeyond.uat'
+[35m[ADB][39m Main activity name: 'com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.amarthaplus.amarthabeyond.uat was successfully uninstalled
+[35m[ADB][39m The application at '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'v1.23.0-minApi19-uat.apk' took 622ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity and waiting for 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 10bbc15d-2ddb-4640-93ea-ddb6378573b8 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m6587 ms - 1304[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8 [39m[32m200[39m [90m5 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8 [39m[32m200[39m [90m3 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/screenshot [39m[32m200[39m [90m248 ms - 106556[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/appium/device/system_bars [39m[32m200[39m [90m47 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"552621cf-6ffd-42d7-b5ae-24bf93301077","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"552621cf-6ffd-42d7-b5ae-24bf93301077","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"552621cf-6ffd-42d7-b5ae-24bf93301077","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"552621cf-6ffd-42d7-b5ae-24bf93301077","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m2838 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000024/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-001c-ffff-ffff00000024"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000024/click [39m[32m200[39m [90m46 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m35 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000024/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"552621cf-6ffd-42d7-b5ae-24bf93301077","value":{"error":"stale element reference","message":"The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:122)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(Ser...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000024/displayed [39m[33m404[39m [90m723 ms - 4038[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m96 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000030/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000030/displayed [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000030/enabled[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000030/enabled [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m7 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000030/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-001c-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff00000030/click [39m[32m200[39m [90m36 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_start"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m732 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff0000003b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-001c-ffff-ffff0000003b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001c-ffff-ffff0000003b/click [39m[32m200[39m [90m50 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/textView_onboarding_login"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m183 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001e-ffff-ffff00000048/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-001e-ffff-ffff00000048"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001e-ffff-ffff00000048/click [39m[32m200[39m [90m552 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/editText_login_phone_input"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"552621cf-6ffd-42d7-b5ae-24bf93301077","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m663 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001f-ffff-ffff0000005c/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-001f-ffff-ffff0000005c","text":"08123213123","value":["0","8","1","2","3","2","1","3","1","2","3"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001f-ffff-ffff0000005c/value [39m[32m200[39m [90m634 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element [39m[32m200[39m [90m498 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001f-ffff-ffff0000005d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-001f-ffff-ffff0000005d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/10bbc15d-2ddb-4640-93ea-ddb6378573b8/element/00000000-0000-001f-ffff-ffff0000005d/click [39m[32m200[39m [90m38 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","noReset":false,"deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":51160},"capabilities":{"firstMatch":[{"appium:app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":51160,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 16dfc8ca-8326-4edf-bc39-ed7d985a4b75
+[35m[BaseDriver][39m Using local app '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.amarthaplus.amarthabeyond.uat'
+[35m[ADB][39m Main activity name: 'com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.amarthaplus.amarthabeyond.uat was successfully uninstalled
+[35m[ADB][39m The application at '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'v1.23.0-minApi19-uat.apk' took 407ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity and waiting for 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 16dfc8ca-8326-4edf-bc39-ed7d985a4b75 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m5962 ms - 1304[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75 [39m[32m200[39m [90m11 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75 [39m[32m200[39m [90m6 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/screenshot [39m[32m200[39m [90m233 ms - 106758[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/window/rect [39m[32m200[39m [90m5 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/appium/device/system_bars [39m[32m200[39m [90m44 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m3049 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000024/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-002d-ffff-ffff00000024"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000024/click [39m[32m200[39m [90m62 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m33 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000024/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"stale element reference","message":"The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:122)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(Ser...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000024/displayed [39m[33m404[39m [90m716 ms - 4038[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m11 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000030/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000030/displayed [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000030/enabled[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000030/enabled [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m6 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000030/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-002d-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff00000030/click [39m[32m200[39m [90m43 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_start"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m733 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff0000003b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-002d-ffff-ffff0000003b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002d-ffff-ffff0000003b/click [39m[32m200[39m [90m32 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/textView_onboarding_login"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m703 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002f-ffff-ffff00000048/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-002f-ffff-ffff00000048"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-002f-ffff-ffff00000048/click [39m[32m200[39m [90m42 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/editText_login_phone_input"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m685 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0030-ffff-ffff0000005c/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff0000005c","text":"081319967818","value":["0","8","1","3","1","9","9","6","7","8","1","8"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0030-ffff-ffff0000005c/value [39m[32m200[39m [90m638 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m499 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0030-ffff-ffff0000005d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0030-ffff-ffff0000005d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0030-ffff-ffff0000005d/click [39m[32m200[39m [90m52 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'1')]"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"dd415d6d-3e71-4597-ad3b-26d23908892f","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:90)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:67)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m1277 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff00000096/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0032-ffff-ffff00000096"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff00000096/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'2')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m41 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff00000098/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0032-ffff-ffff00000098"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff00000098/click [39m[32m200[39m [90m927 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'3')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m517 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff0000009a/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0032-ffff-ffff0000009a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff0000009a/click [39m[32m200[39m [90m41 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'6')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m524 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff000000a0/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0032-ffff-ffff000000a0"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff000000a0/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'5')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m29 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff0000009e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0032-ffff-ffff0000009e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff0000009e/click [39m[32m200[39m [90m494 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'4')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element [39m[32m200[39m [90m517 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff0000009c/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0032-ffff-ffff0000009c"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/16dfc8ca-8326-4edf-bc39-ed7d985a4b75/element/00000000-0000-0032-ffff-ffff0000009c/click [39m[32m200[39m [90m38 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","noReset":false,"deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":51273},"capabilities":{"firstMatch":[{"appium:app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":51273,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 3aafb8d0-e463-42cb-909e-dbcbdc96d0b0
+[35m[BaseDriver][39m Using local app '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.amarthaplus.amarthabeyond.uat'
+[35m[ADB][39m Main activity name: 'com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.amarthaplus.amarthabeyond.uat was successfully uninstalled
+[35m[ADB][39m The application at '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'v1.23.0-minApi19-uat.apk' took 298ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity and waiting for 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 3aafb8d0-e463-42cb-909e-dbcbdc96d0b0 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7170 ms - 1304[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0 [39m[32m200[39m [90m4 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0 [39m[32m200[39m [90m5 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/screenshot [39m[32m200[39m [90m197 ms - 106758[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/window/rect [39m[32m200[39m [90m4 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/appium/device/system_bars [39m[32m200[39m [90m33 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m3229 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000024/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0043-ffff-ffff00000024"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000024/click [39m[32m200[39m [90m42 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m35 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000024/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"stale element reference","message":"The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:122)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(Ser...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000024/displayed [39m[33m404[39m [90m726 ms - 4038[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m18 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000030/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000030/displayed [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000030/enabled[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000030/enabled [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m7 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000030/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0043-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff00000030/click [39m[32m200[39m [90m26 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_start"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m736 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff0000003b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0043-ffff-ffff0000003b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0043-ffff-ffff0000003b/click [39m[32m200[39m [90m54 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/textView_onboarding_login"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m702 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0045-ffff-ffff00000048/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0045-ffff-ffff00000048"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0045-ffff-ffff00000048/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/editText_login_phone_input"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m707 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0046-ffff-ffff0000005c/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0046-ffff-ffff0000005c","text":"081289945245","value":["0","8","1","2","8","9","9","4","5","2","4","5"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0046-ffff-ffff0000005c/value [39m[32m200[39m [90m646 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m499 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0046-ffff-ffff0000005d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0046-ffff-ffff0000005d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0046-ffff-ffff0000005d/click [39m[32m200[39m [90m53 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'1')]"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"1ea706cd-2fd6-4442-88ee-b596cbfcb5ab","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:90)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:67)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m1290 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff00000096/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0048-ffff-ffff00000096"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff00000096/click [39m[32m200[39m [90m30 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'2')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m36 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff00000098/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0048-ffff-ffff00000098"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff00000098/click [39m[32m200[39m [90m938 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'3')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m509 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff0000009a/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0048-ffff-ffff0000009a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff0000009a/click [39m[32m200[39m [90m45 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'6')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m523 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff000000a0/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0048-ffff-ffff000000a0"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff000000a0/click [39m[32m200[39m [90m34 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'5')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m24 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff0000009e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0048-ffff-ffff0000009e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff0000009e/click [39m[32m200[39m [90m494 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'4')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element [39m[32m200[39m [90m514 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff0000009c/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0048-ffff-ffff0000009c"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/3aafb8d0-e463-42cb-909e-dbcbdc96d0b0/element/00000000-0000-0048-ffff-ffff0000009c/click [39m[32m200[39m [90m31 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","noReset":false,"deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":51396},"capabilities":{"firstMatch":[{"appium:app":"/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone_arm64 - Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":51396,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb
+[35m[BaseDriver][39m Using local app '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk'
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/ahmadilham/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.amarthaplus.amarthabeyond.uat'
+[35m[ADB][39m Main activity name: 'com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m com.amarthaplus.amarthabeyond.uat was successfully uninstalled
+[35m[ADB][39m The application at '/Users/ahmadilham/Downloads/v1.23.0-minApi19-uat.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'v1.23.0-minApi19-uat.apk' took 367ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity and waiting for 'com.amarthaplus.amarthabeyond.uat/com.amarthaplus.amarthabeyond.feature.splash.view.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8157 ms - 1304[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb [39m[32m200[39m [90m4 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb [39m[32m200[39m [90m7 ms - 1258[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/screenshot [39m[32m200[39m [90m211 ms - 106758[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/appium/device/system_bars [39m[32m200[39m [90m39 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m3158 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000024/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0059-ffff-ffff00000024"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000024/click [39m[32m200[39m [90m42 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m32 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000024/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"stale element reference","message":"The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore","stacktrace":"io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: com.amarthaplus.amarthabeyond.uat:id/btn_next' is not linked to the same object in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:122)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(Ser...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000024/displayed [39m[33m404[39m [90m722 ms - 4038[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m15 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000030/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000030/displayed [39m[32m200[39m [90m10 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000030/enabled[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000030/enabled [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m12 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000030/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0059-ffff-ffff00000030"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff00000030/click [39m[32m200[39m [90m29 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_start"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m734 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff0000003b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0059-ffff-ffff0000003b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-0059-ffff-ffff0000003b/click [39m[32m200[39m [90m53 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/textView_onboarding_login"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m140 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005b-ffff-ffff00000048/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-ffff-ffff00000048"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005b-ffff-ffff00000048/click [39m[32m200[39m [90m1276 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/editText_login_phone_input"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m13 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005c-ffff-ffff0000005c/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005c-ffff-ffff0000005c","text":"081319967818","value":["0","8","1","3","1","9","9","6","7","8","1","8"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005c-ffff-ffff0000005c/value [39m[32m200[39m [90m740 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/btn_next"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m499 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005c-ffff-ffff0000005d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005c-ffff-ffff0000005d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005c-ffff-ffff0000005d/click [39m[32m200[39m [90m55 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'1')]"}[39m
+[35m[WD Proxy][39m Got response with status 404: {"sessionId":"6d66f3b3-73b9-4ca6-96b9-12f7f94511eb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:90)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:67)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m1276 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000096/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005e-ffff-ffff00000096"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000096/click [39m[32m200[39m [90m50 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'2')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m32 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000098/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005e-ffff-ffff00000098"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000098/click [39m[32m200[39m [90m935 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'3')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m530 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff0000009a/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005e-ffff-ffff0000009a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff0000009a/click [39m[32m200[39m [90m34 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'1')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m510 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000096/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005e-ffff-ffff00000096"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000096/click [39m[32m200[39m [90m29 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'2')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m36 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000098/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005e-ffff-ffff00000098"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff00000098/click [39m[32m200[39m [90m497 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//android.widget.Button[contains(@text,'3')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m497 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff0000009a/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005e-ffff-ffff0000009a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff0000009a/click [39m[32m200[39m [90m31 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.amarthaplus.amarthabeyond.uat:id/error_message"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element [39m[32m200[39m [90m1042 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff0000008f/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6227ecaf)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6d66f3b3-73b9-4ca6-96b9-12f7f94511eb with 6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/element/00000000-0000-005e-ffff-ffff0000008f/text [39m[32m200[39m [90m18 ms - 93[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/appium/app/close[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb/appium/app/close [39m[32m200[39m [90m103 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb from our master session list
+[35m[ADB][39m com.amarthaplus.amarthabeyond.uat was successfully uninstalled
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/6227ecaf-3508-496d-9ddf-4b1c8e3aa3bb [39m[32m200[39m [90m739 ms - 14[39m
+[35m[HTTP][39m [90m[39m
